@@ -1,6 +1,6 @@
 
 body {
-    background: linear-gradient(135deg, #0f172a, #2563eb);
+    background: linear-gradient(135deg, #fff176, #fbc02d);
     font-family: Arial, sans-serif;
     margin: 0;
     min-height: 100vh;
@@ -9,13 +9,13 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: white;
+    color: #333333;
     padding: 20px;
     box-sizing: border-box;
 }
 
 h1 {
-    color: white;
+    color: #8d4e00;
     font-size: 40px;
     margin-bottom: 20px;
 }
@@ -25,17 +25,17 @@ h1 {
     width: 100%;
     margin: 20px auto;
     padding: 30px 25px;
-    background: rgba(255, 255, 255, 0.12);
-    border: 1px solid rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.55);
+    border: 2px solid #f57f17;
     border-radius: 20px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
-    color: white;
+    box-shadow: 0 10px 30px rgba(141, 78, 0, 0.2);
+    color: #333333;
     line-height: 1.8;
     box-sizing: border-box;
 }
 
 .about-me h2 {
-    color: #7dd3fc;
+    color: #e65100;
     font-size: 32px;
     margin-top: 0;
     margin-bottom: 18px;
@@ -47,8 +47,8 @@ h1 {
 }
 
 button {
-    background: #7dd3fc;
-    color: #0f172a;
+    background: #f57f17;
+    color: white;
     padding: 12px 24px;
     border: none;
     border-radius: 8px;
@@ -58,7 +58,7 @@ button {
 }
 
 button:hover {
-    background: white;
+    background: #e65100;
 }
 
 @media (max-width: 600px) {

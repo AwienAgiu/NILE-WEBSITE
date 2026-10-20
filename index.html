@@ -4,20 +4,224 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>My Personal Website</title>
+
+    <meta name="description" content="Welcome to my personal website.">
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f4f7fb;
+            color: #222;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #123c69;
+            color: white;
+            text-align: center;
+            padding: 30px 15px;
+        }
+
+        nav {
+            background: #082747;
+            padding: 14px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 8px;
+            display: inline-block;
+        }
+
+        nav a:hover {
+            color: #ffd166;
+        }
+
+        .hero {
+            background: white;
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        .hero h2 {
+            color: #123c69;
+            font-size: 30px;
+        }
+
+        .button {
+            display: inline-block;
+            background: #123c69;
+            color: white;
+            padding: 12px 22px;
+            text-decoration: none;
+            border-radius: 6px;
+            margin: 5px;
+        }
+
+        .button:hover {
+            background: #205a91;
+        }
+
+        section {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 25px;
+            background: white;
+            border-radius: 10px;
+        }
+
+        section h2 {
+            color: #123c69;
+        }
+
+        .links a {
+            display: inline-block;
+            margin: 8px;
+            color: #1256a0;
+        }
+
+        footer {
+            background: #082747;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+
+        @media (max-width: 600px) {
+            .hero h2 {
+                font-size: 24px;
+            }
+
+            section {
+                margin: 12px;
+                padding: 18px;
+            }
+
+            nav a {
+                margin: 5px;
+            }
+        }
+    </style>
 </head>
+
 <body>
 
-    <h1>Welcome to My Website</h1>
-    <p>Visit my favourite websites below:</p>
+    <header>
+        <h1>My Personal Website</h1>
+        <p>Welcome to my online home!</p>
+    </header>
 
-    <a href="https://www.google.com">Open Google</a>
-    <br><br>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#links">Websites</a>
+        <a href="#contact">Contact</a>
+    </nav>
 
-    <a href="https://www.youtube.com">Open YouTube</a>
-    <br><br>
+    <div class="hero" id="home">
+        <h2>Hello and Welcome!</h2>
+        <p>
+            Thank you for visiting my personal website.
+            Explore my pages and discover more about me.
+        </p>
 
-    <a href="https://github.com">Open GitHub</a>
+        <a class="button" href="#about">Learn About Me</a>
+        <a class="button"
+           href="https://github.com"
+           target="_blank"
+           rel="noopener noreferrer">
+            Visit GitHub
+        </a>
+    </div>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            Hello! Welcome to my website.
+            I am interested in technology, learning,
+            and website development.
+        </p>
+        <p>
+            This website is a place where I can share
+            information about myself and my interests.
+        </p>
+    </section>
+
+    <section id="services">
+        <h2>My Services</h2>
+        <ul>
+            <li>Website Design</li>
+            <li>HTML and CSS Practice</li>
+            <li>Information Technology Learning</li>
+            <li>Basic Computer Support</li>
+        </ul>
+    </section>
+
+    <section id="links">
+        <h2>My Favourite Websites</h2>
+        <p>Click any link below to visit another website.</p>
+
+        <div class="links">
+            <a href="https://www.google.com"
+               target="_blank"
+               rel="noopener noreferrer">
+                Google
+            </a>
+
+            <a href="https://www.youtube.com"
+               target="_blank"
+               rel="noopener noreferrer">
+                YouTube
+            </a>
+
+            <a href="https://github.com"
+               target="_blank"
+               rel="noopener noreferrer">
+                GitHub
+            </a>
+
+            <a href="https://www.wikipedia.org"
+               target="_blank"
+               rel="noopener noreferrer">
+                Wikipedia
+            </a>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>
+            You can contact me by email using the link below.
+        </p>
+
+        <a class="button"
+           href="mailto:yourname@example.com">
+            Send Me an Email
+        </a>
+
+        <p>
+            Replace yourname@example.com with your own email address.
+        </p>
+    </section>
+
+    <footer>
+        <p>
+            &copy; 2026 My Personal Website.
+            All rights reserved.
+        </p>
+    </footer>
 
 </body>
 </html>
+
